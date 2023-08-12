@@ -1,5 +1,4 @@
-// Narcissa0.js - AMD/2023
-// You are not allowed to change this file.
+
 
 
 // MISCELLANEOUS FUNCTIONS
