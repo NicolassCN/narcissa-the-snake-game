@@ -22,9 +22,6 @@ function fatalError(m) {
 	throw "Fatal Error!";
 }
 
-function div(a, b) {		// integer division
-	return Math.floor(a/b);
-}
 
 
 // GAME IMAGES
