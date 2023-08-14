@@ -1,0 +1,88 @@
+<HTML>
+
+    <!--
+    Nercisa!!! HTML
+    
+    0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+    -->
+    
+    <HEAD>
+    <meta charset="UTF-8">
+    <title>Linguagens e Ambientes de Programação (2022/2023) [Eng.Inf. - DI/FCT/UNL] - 3º projeto prático (Javascript)</title>
+    
+    <SCRIPT TYPE="text/javascript" src="Narcissa0.js"></SCRIPT>
+    <SCRIPT TYPE="text/javascript" src="Narcissa.js"></SCRIPT>
+  
+    <style>
+  
+  
+  
+      body{
+        grid-template-columns: auto auto auto;
+        background-color: antiquewhite;
+      }	
+      canvas{
+        background-color: white;
+      }
+      span{
+        font-size: 13px;
+        margin-left: 20px;
+        padding: 25px;
+        font-weight: bold;
+        color: #000000;
+        background-color: #ffffffa1;
+        border-radius: 10px;
+        border: black 1px solid;
+      }
+      .darkMode{
+        background-color: #000000;
+        color: #ffffff;
+      }
+  
+      div{
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+    </style>
+    
+    </HEAD>
+    
+    
+    <BODY onload="onLoad()">
+  
+  
+        <p><b>Narcissa</b> -- Author1 (61905), Author2 (63191)
+          <FORM NAME="form1">
+            <CANVAS id="canvas1" width="1120" height="640" style="border:1px solid #000000;">
+              Your browser doesn't support the HTML5 CANVAS tag.
+            </CANVAS> <p>
+              <INPUT TYPE="button" NAME="button1" VALUE="Pause <Space>" SIZE=10 OnClick="b1()">
+              <INPUT TYPE="button" NAME="button2" VALUE="Reset <R>" SIZE=10 OnClick="b2()">
+              <input type="button" name="button4" value="Music-Play <M>" size=10 onclick="turnOnMusic()">
+              <input type="button" name="button5" value="Music-Pause <N>" size=10 onclick="turnOffMusic()">
+              <INPUT TYPE="button" NAME="button3" VALUE="Auto-Snake" SIZE=10 OnClick="automaticSnake()">  
+                    
+                    
+                  </FORM>
+                </FORM>
+                
+                <div>
+                  <form name="scoreBoard" id="scoreBoard">
+            <label for="score" >Score:</label>
+            <input type="text" name="score" id="score"  value="5" onkeyup="updateScore()"disabled>
+            <label for="score" >Game Time:</label>
+            <input type="text" name ="timer" id="time" value = "0" disabled>
+            
+            <span >HOW LONG CAN YOU SURVIVE?</span>
+            <span >Avoid the obstacles and try to reach 300 to win!</span>
+            
+          </form>
+        
+        
+      </div>
+      </BODY>
+      
+    </HTML>
+    <!-- código inicial de AMD/2023 -->
+    <!-- vim:set ts=4 sw=4 et: -->
+    
