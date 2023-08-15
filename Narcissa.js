@@ -343,9 +343,6 @@ class Snake extends ActorsThatGrow {
             }
         }
     }
-    
-    
-
 
     animation(x, y) {
         if (control.automaticSnake) this.handleAutomatic();
