@@ -1,4 +1,4 @@
-//
+// Establishes the game fundamentals
 
 // MISCELLANEOUS FUNCTIONS
 
