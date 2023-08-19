@@ -575,7 +575,6 @@ class GameControl {
         b2();
     }
 
-
     lose() {
         this.paused = true;
         alert("You lost!\n" + "Your score was: " + score.value + "\nTry again?");
