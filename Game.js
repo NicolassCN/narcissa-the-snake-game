@@ -1,4 +1,5 @@
 // Establishes the game fundamentals
+// Map
 
 // MISCELLANEOUS FUNCTIONS
 
